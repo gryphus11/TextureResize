@@ -23,7 +23,7 @@ namespace TextureResize
             Resize(arguments, width, height);
 
             Console.WriteLine("모든 텍스쳐의 변환이 완료되었습니다.");
-            Console.WriteLine("[Texture Resize For Windows] Made By Brunhild");
+            Console.WriteLine("[Texture Resize] Made By Brunhild");
             Console.WriteLine("Press Enter Key.....");
             while (Console.ReadKey().Key != ConsoleKey.Enter) ;
         }
