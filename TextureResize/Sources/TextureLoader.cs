@@ -52,7 +52,7 @@ namespace TextureResize.Sources
             }
             else
             {
-                Console.WriteLine(path + " => 원본 텍스쳐를 찾을수 없습니다.\n");
+                Console.WriteLine(path + " => 경로 또는 원본 파일을 찾을수 없습니다.\n");
             }
         }
 
@@ -67,7 +67,7 @@ namespace TextureResize.Sources
 
             if (sourceTexture == null)
             {
-                Console.WriteLine(path + " => 원본 텍스쳐를 찾을수 없습니다.\n");
+                Console.WriteLine(path + " => 경로 또는 원본 파일을 찾을수 없습니다.\n");
                 return;
             }
 
