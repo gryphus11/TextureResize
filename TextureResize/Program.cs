@@ -36,6 +36,7 @@ namespace TextureResize
             int height = 0;
             string[] arguments = null;
 
+            // 유효한 값이 되도록 계속하여 체크
             if (args.Length == 0)
             {
                 Console.Write("파일의 경로와 파일명까지 입력해 주세요. ',' 로 구분하여 경로 추가: ");
@@ -91,6 +92,7 @@ namespace TextureResize
 
         private static void Resize(string[] arguments, int width, int height)
         {
+            // 리사이징의 
             List<TextureLoader> loaders = new List<TextureLoader>();
             for (int i = 0; i < arguments.Length; ++i)
             {
