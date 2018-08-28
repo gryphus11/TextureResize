@@ -89,7 +89,7 @@ namespace TextureResize.Sources
 
             if ((sourceWidth <= targetWidth) && (sourceHeight <= targetHeight))
             {
-                Console.WriteLine(fileName + " 은 리사이징이 필요하지 않습니다.\n");
+                Console.WriteLine(fileName + " 은(는) 리사이징이 대상이 아닙니다.\n");
                 return;
             }
 
