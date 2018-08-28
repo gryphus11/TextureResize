@@ -26,6 +26,11 @@ namespace TextureResize.Sources
 
                 return texture;
             }
+            else
+            {
+                Console.WriteLine(path + " 은(는) 유효하지 않습니다.");
+            }
+
             return null;
         }
 
