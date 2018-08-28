@@ -18,6 +18,8 @@ namespace TextureResize.Sources
             Bitmap texture = null;
             if (File.Exists(path))
             {
+                string fileName = Path.GetFileName(path);
+                Console.WriteLine(fileName + "파일 읽기를 시작합니다.");
                 FileStream stream = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.Read);
                 texture = new Bitmap(stream);
                 stream.Close();
