@@ -18,8 +18,10 @@ namespace TextureResize
             int height = 0;
             string[] arguments = null;
 
+            // 입력부. out result로 문자열의 배열, 가로, 세로의 크기를 받음
             InputArguments(args, out arguments, out width, out height);
 
+            // 처리부. 문자열의 배열에 해당하는 파일이 존재시 사이즈를 변경
             Resize(arguments, width, height);
 
             Console.WriteLine("모든 텍스쳐의 변환이 완료되었습니다.");
