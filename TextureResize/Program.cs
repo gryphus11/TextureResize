@@ -22,7 +22,7 @@ namespace TextureResize
 
             Resize(arguments, width, height);
 
-            Console.WriteLine("모든 텍스쳐의 변환 완료! 엔터 키를 눌러서 종료.\n");
+            Console.WriteLine("모든 텍스쳐의 변환이 완료되었습니다. 엔터 키를 눌러서 종료.");
 
             while (Console.ReadKey().Key != ConsoleKey.Enter) ;
         }
