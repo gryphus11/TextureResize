@@ -101,7 +101,7 @@ namespace TextureResize.Sources
             int colorBlendedCount = 0;
 
             Bitmap newBitmap = new Bitmap(targetWidth, targetHeight);
-            Console.WriteLine(fileName + " 의 색상 정보의 평균을 처리중\n");
+            Console.WriteLine(fileName + " 의 색상 정보의 평균을 처리중입니다.\n");
 
             int maxIndex = totalTargetLength - 1;
             float targetRate = 10.0f;
