@@ -17,9 +17,11 @@ namespace TextureResize
             int width = 0;
             int height = 0;
             string[] arguments = null;
-
+            
+            // 입력부
             InputArguments(args, out arguments, out width, out height);
-
+            
+            // 처리부
             Resize(arguments, width, height);
 
             Console.WriteLine("모든 텍스쳐의 변환이 완료되었습니다.");
