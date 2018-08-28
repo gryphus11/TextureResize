@@ -22,9 +22,8 @@ namespace TextureResize
 
             Resize(arguments, width, height);
 
-            Console.WriteLine("모든 텍스쳐의 변환이 완료되었습니다.");
+            Console.WriteLine("모든 텍스쳐의 변환이 완료되었습니다. 엔터 키를 눌러서 종료.");
             Console.WriteLine("[Made By Brunhild]");
-            Console.WriteLine("Press Enter Key.....");
             while (Console.ReadKey().Key != ConsoleKey.Enter) ;
         }
 
