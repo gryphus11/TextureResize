@@ -152,7 +152,7 @@ namespace TextureResize.Sources
                     Console.WriteLine(fileName + " " + percentage + "% 완료\n");
                 }
             }
-            Console.WriteLine("리사이징 완료된 " + fileName + " 의 저장 시작\n");
+            Console.WriteLine("리사이징이 완료된 " + fileName + " 의 저장 시작\n");
             newBitmap.Save(directory + "/new_" + fileName, System.Drawing.Imaging.ImageFormat.Jpeg);
             newBitmap.Dispose();
             Console.WriteLine("저장 완료 : " + directory + "/new_" + fileName + "\n");
