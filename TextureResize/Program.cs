@@ -43,10 +43,12 @@ namespace TextureResize
 
                 string inputPath = Console.ReadLine();
                 arguments = inputPath.Trim().Split(new char[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                Console.WriteLine("경로 입력값 : ");
                 foreach (string argument in arguments)
                 {
                     Console.WriteLine(argument);
                 }
+                Console.WriteLine("경로 입력 종료.");
             }
             else
             {
