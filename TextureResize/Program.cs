@@ -41,7 +41,7 @@ namespace TextureResize
             if (args.Length == 0)
             {
                 Console.Write("파일의 경로와 파일명까지 입력해 주세요. ',' 로 구분하여 경로 추가: ");
-
+		// 파일경로 처리에 대한 부분 개선필요.
                 string inputPath = Console.ReadLine();
                 arguments = inputPath.Trim().Split(new char[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
                 Console.WriteLine("경로 입력값 : ");
